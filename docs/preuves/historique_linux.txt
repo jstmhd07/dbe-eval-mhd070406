@@ -1,0 +1,68 @@
+    1  2026-11-23 08:53:56 ls
+    2  2026-11-23 08:53:56 mkdir -/tp-git cd -/tp-git
+    3  2026-11-23 08:53:56 mkdir --help
+    4  2026-11-23 08:53:56 pwd
+    5  2026-11-23 08:53:56 mkdir tp-git
+    6  2026-11-23 08:53:56 cd tp-git
+    7  2026-11-23 08:53:56 git init
+    8  2026-11-23 08:53:56 git branch -M main
+    9  2026-11-23 08:53:56 git status
+   10  2026-11-23 08:53:56 nano main.java
+   11  2026-11-23 08:53:56 javac Main.java
+   12  2026-11-23 08:53:56 nano main.java
+   13  2026-11-23 08:53:56 nano Main.java
+   14  2026-11-23 08:53:56 javac Main.java
+   15  2026-11-23 08:53:56 nano Main.java
+   16  2026-11-23 08:53:56 javac Main.java
+   17  2026-11-23 08:53:56 echo" # Calcularice" > README.md
+   18  2026-11-23 08:53:56 nano README.md
+   19  2026-11-23 08:53:56 ls
+   20  2026-11-23 08:53:56 git status
+   21  2026-11-23 08:53:56 git add Main.java README.md
+   22  2026-11-23 08:53:56 git status
+   23  2026-11-23 08:53:56 git add main.java README.md
+   24  2026-11-23 08:53:56 git status
+   25  2026-11-23 08:53:56 git commit -m" la methode addition et le README"
+   26  2026-11-23 08:53:56 git log
+   27  2026-11-23 08:53:56 git log --oneline
+   28  2026-11-23 08:53:56 git status
+   29  2026-11-23 08:53:56 git remote add origin https://github.com/jstmhd07/tp-git-MouhamedMarone.git
+   30  2026-11-23 08:53:56 git push -u origin main
+   31  2026-11-23 08:53:56 ls
+   32  2026-11-23 08:53:56 cd tp-git
+   33  2026-11-23 08:53:56 nano Main.java
+   34  2026-11-23 08:53:56 javac Main.java
+   35  2026-11-23 08:53:56 nano Main.java
+   36  2026-11-23 08:53:56 javac Main.java
+   37  2026-11-23 08:53:56 nano Main.java
+   38  2026-11-23 08:53:56 javac Main.java
+   39  2026-11-23 08:53:56 nano Main.java
+   40  2026-11-23 08:53:56 javac Main.java
+   41  2026-11-23 08:53:56 nano Main.java
+   42  2026-11-23 08:53:56 javac Main.java
+   43  2026-11-23 08:53:56 nano Main.java
+   44  2026-11-23 08:53:56 javac Main.java
+   45  2026-11-23 08:53:56 git status
+   46  2026-11-23 09:32:03 mkdir -p ~/dbe-eval-<mhd070406>/{src,scripts,logs,docs/preuves,rapports,rendus}
+   47  2026-11-23 09:33:41 cd ~/dbe-eval-mhd070406
+   48  2026-11-23 09:34:23 mkdir -p ~/dbe-eval-mhd070406/{src,scripts,logs,docs/preuves,rapports,rendus}
+   49  2026-11-23 09:34:38 ls ~/dbe-eval-mhd070406
+   50  2026-11-23 09:48:43 cd ~/dbe-eval-mhd070406
+   51  2026-11-23 09:49:06 echo 'export MATRICULE="mhd070406"' >> ~/.bashrc
+   52  2026-11-23 09:49:15 echo 'export HISTTIMEFORMAT="%F %T "' >> ~/.bashrc
+   53  2026-11-23 09:49:29 source ~/.bashrc
+   54  2026-11-23 09:49:38 echo "$MATRICULE"
+   55  2026-11-23 09:50:22 nano src/GenerateurLogs.java
+   56  2026-11-23 09:53:47 javac src/GenerateurLogs.java
+   57  2026-11-23 10:02:05 java -cp out GenerateurLogs mhd070406 2000 > logs/access.log
+   58  2026-11-23 10:08:45 pwd
+   59  2026-11-23 10:09:00 ls
+   60  2026-11-23 10:09:04 java -cp out GenerateurLogs mhd070406 2000 > logs/access.log
+   61  2026-11-23 10:10:19 wc -l logs/access.log
+   62  2026-11-23 10:11:13 java -cp src GenerateurLogs mhd070406 2000 > logs/access.log
+   63  2026-11-23 10:11:23 wc -l logs/access.log
+   64  2026-11-23 10:48:29 awk '{print $9}' logs/access.log | sort | uniq -c | sort -rn
+   65  2026-11-23 11:52:28 awk '{print $9}' logs/access.log | sort | uniq -c | sort -nr
+   66  2026-11-23 11:52:43 awk '{p=$7; gsub(/\"/,"",p); sub(/\?.*/,"",p); print p}' logs/access.log | sort | uniq -c | sort -nr | head -n 3
+   67  2026-11-23 12:16:49 nano scripts/analyse.sh
+   68  2026-11-23 12:57:02 history > docs/preuves/historique_linux.txt
